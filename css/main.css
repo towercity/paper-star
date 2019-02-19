@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F1F0D8;
+}
+
+header {
+  background-color: #DED1E1;
+}
+
+#splash-img img {
+  width: 80%;
+  margin: 5vh 10%;
+}
