@@ -5,6 +5,7 @@
 
 body {
   background-color: #F1F0D8;
+  font-size: 16pt;
 }
 
 header {
@@ -14,4 +15,20 @@ header {
 #splash-img img {
   width: 80%;
   margin: 5vh 10%;
+}
+
+article {
+  width: 70%;
+  margin: 25px 15%;
+  line-height: 2em;
+}
+
+article h2 {
+  font-size: 3em;
+  margin: 150px 0 75px 0; 
+}
+
+article .emph-text {
+  font-size: 1.2em;
+  font-weight: bold;
 }
