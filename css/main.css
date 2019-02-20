@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Moon Light";
+  src: url('../fonts/Moon Light.otf');
+}
+
+@font-face {
+  font-family: "Moon Bold";
+  src: url('../fonts/Moon Bold.otf');
+}
+
+@font-face {
+  font-family: "Gotham Ex Light";
+  src: url('../fonts/GOTHAMEXLIGHT.OTF');
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +21,11 @@
 body {
   background-color: #F1F0D8;
   font-size: 16pt;
+  font-family: "Gotham Ex Light";
+}
+
+h1, h2, h3, h4 {
+  font-family: "Moon Bold";
 }
 
 header {
@@ -25,10 +45,11 @@ article {
 
 article h2 {
   font-size: 3em;
-  margin: 150px 0 75px 0; 
+  margin: 150px 0 75px 0;
 }
 
 article .emph-text {
   font-size: 1.2em;
   font-weight: bold;
+  font-family: "Moon Light";
 }
