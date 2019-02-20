@@ -48,6 +48,10 @@ article h2 {
   margin: 150px 0 75px 0;
 }
 
+article p {
+  margin-bottom: 150px;
+}
+
 article .emph-text {
   font-size: 1.2em;
   font-weight: bold;
