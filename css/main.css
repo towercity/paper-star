@@ -32,15 +32,26 @@ header {
   background-color: #DED1E1;
 }
 
+#splash-img {
+  height: 100vh;
+}
+
 #splash-img img {
   width: 80%;
   margin: 5vh 10%;
 }
 
 article {
-  width: 70%;
-  margin: 25px 15%;
   line-height: 2em;
+}
+
+article .segment {
+  padding: 150px 15%;
+  height: calc(100vh - 300px);
+}
+
+article .segment:nth-child(even) {
+  background-color: #FFDFB4;
 }
 
 article h2 {
@@ -49,7 +60,6 @@ article h2 {
 }
 
 article p {
-  margin-bottom: 150px;
 }
 
 article .emph-text {
